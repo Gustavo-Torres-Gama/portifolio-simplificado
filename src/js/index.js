@@ -18,7 +18,7 @@ passo 1 pegar o botao e esconder ele
 //passo 1 pegar o botao mostrar mais no js pra poder verificar quando o usuario clicar em cima dele
 
 
-const botaoMostrarProjetos = document.querySelector('btn-mostrar-projetos');
+const botaoMostrarProjetos = document.querySelector('.btn-mostrar-projetos');
 const projetosInativos = document.querySelectorAll('.projeto:not(.ativo)');
 
 botaoMostrarProjetos.addEventListener('click', () => {
@@ -27,7 +27,7 @@ botaoMostrarProjetos.addEventListener('click', () => {
 });
 
 function esconderBotao() {
-    botaoMostrarProjetos.classList.add('remover');
+    botaoMostrarProjetos.classList.add("remover");
 }
 
 function mostrarMaisProjetos() {
